@@ -13,6 +13,6 @@ export interface IUserRepository {
   }): Promise<IUserEntitie>
   findAll(): Promise<IUserEntitie[]>
   create(user: CreateUserDto): Promise<IUserEntitie>
-  update(user: UpdateUserDto): Promise<IUserEntitie>
+  update(id: string, user: UpdateUserDto): Promise<IUserEntitie>
   delete(id: string): Promise<void>
 }
