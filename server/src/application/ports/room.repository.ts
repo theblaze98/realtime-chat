@@ -1,4 +1,4 @@
-import { IRoomEntitie } from 'src/domain/entities/room.entitie'
+import { IRoomEntitie } from '@/domain/entities/room.entitie'
 import { CreateRoomDto, UpdateRoomDto } from '../dto/room.dto'
 
 export interface IRoomRepository {

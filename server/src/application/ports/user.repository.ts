@@ -1,4 +1,4 @@
-import { IUserEntitie } from 'src/domain/entities/user.entitie'
+import { IUserEntitie } from '@/domain/entities/user.entitie'
 import { CreateUserDto, UpdateUserDto } from '../dto/user.dto'
 
 export interface IUserRepository {
