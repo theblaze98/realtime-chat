@@ -4,5 +4,4 @@ export interface IRoomEntitie {
   userId2: string
   name: string
   createdAt: Date
-  updatedAt: Date
 }
